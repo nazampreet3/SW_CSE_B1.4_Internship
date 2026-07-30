@@ -1,3 +1,5 @@
+import Button from './components/FunctionalComponents'
+import { LeftArrow,RightArrow } from "./components/FunctionalComponenetTwo";
 const name = "Amay";
 const isLoggedIn = false;
 
@@ -21,7 +23,11 @@ function App() {
       <h3>Hello, {name}</h3>
 
       {/* JSX Rule 5: use expressions, not statements */}
-      <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
+      <p>{isLoggedIn ? "Welcomsse back" : "Please Login"}</p>
+
+        <Button />
+      <LeftArrow />
+      <RightArrow />
     </>
     
   )
