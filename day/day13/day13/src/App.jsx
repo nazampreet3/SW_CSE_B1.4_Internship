@@ -5,6 +5,7 @@ import ProfileList from "./components/Props";
 import InfoBoxDemo from "./components/PropsTwo";
 
 import './App.css'
+import Counter from "./components/State";
 const name = "Amay";
 const isLoggedIn = false;
 
@@ -35,6 +36,7 @@ function App() {
       <RightArrow />
       <ProfileList />
        <InfoBoxDemo />
+       <Counter />
     </>
     
   )
